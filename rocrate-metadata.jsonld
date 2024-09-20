@@ -1,0 +1,280 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    "https://w3id.org/ro/terms/earth-science#",
+    {
+      "description": "http://purl.org/dc/terms/description",
+      "title": "http://purl.org/dc/terms/title",
+      "creation_mode": "http://w3id.org/ro-id/rohub/model#creation_mode"
+    }
+  ],
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "ro-crate-metadata.json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "identifier": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2",
+      "hasPart": [
+        {
+          "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a"
+        },
+        {
+          "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/de3d1a25-8ee9-4d94-ba9d-951793bc539d"
+        },
+        {
+          "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/4c6f9b92-67d7-4b02-a5ad-2f9e8cce9f32"
+        },
+        {
+          "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/aaea0a9a-1463-499c-b4cd-74b043f390db"
+        },
+        {
+          "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/eed9f222-34fd-422c-93d4-e61ecfdda948"
+        }
+      ],
+      "@type": [
+        "Dataset"
+      ],
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "studySubject": [
+        "http://eurovoc.europa.eu/5299"
+      ],
+      "citeAs": "Decruw, Cedric. \"My first project.\" ROHub. Sep 20 ,2024. https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2.",
+      "datePublished": "2024-09-20 15:12:54.118938+00:00",
+      "dateCreated": "2024-09-20 15:12:54.118938+00:00",
+      "dateModified": "2024-09-20 16:19:07.664313+00:00",
+      "contributor": [],
+      "name": "My first project",
+      "contentSize": 521,
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://api.rohub.org/api/ros/6331095a-dba2-4400-9b06-64e38c9c32a2/crate/download/",
+      "http://w3id.org/ro-id/rohub/model#creation_mode": "MANUAL",
+      "https://w3id.org/ro/terms/earth-science#Concept": [
+        "https://w3id.org/ro-id/cff16acc-857d-4537-985c-d8a986dc762a",
+        "https://w3id.org/ro-id/00aa133c-4b41-4eb2-b06b-386c8e7a334b"
+      ],
+      "https://w3id.org/ro/terms/earth-science#FieldOfResearch": [
+        "https://w3id.org/ro-id/8ebccc00-c414-4ce6-bb6b-e8e6a4129113",
+        "https://w3id.org/ro-id/ec3966e8-f79f-431e-9083-98b3bb4c605c",
+        "https://w3id.org/ro-id/01ed55c2-f29a-41e1-8d46-f313179c66c5",
+        "https://w3id.org/ro-id/76589aae-af01-4a06-80cd-5ccc01e37624"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Lemma": [
+        "https://w3id.org/ro-id/ef0e19fb-60b2-4139-811b-d55556296156",
+        "https://w3id.org/ro-id/4951e7fa-fb10-48c8-8796-c0b54a1d987f"
+      ],
+      "https://w3id.org/ro/terms/earth-science#NASA": [
+        "https://w3id.org/ro-id/3a027563-17c4-4d3d-ab77-4713e9dd9ff7",
+        "https://w3id.org/ro-id/a1431b99-4bb7-46b5-b1bf-b18e8218d80f",
+        "https://w3id.org/ro-id/bdb804c2-0ff5-4aee-be2f-7e6e20fdb3ef",
+        "https://w3id.org/ro-id/3336233a-7711-4199-b68c-4b48c3ecdc80"
+      ],
+      "https://w3id.org/ro/terms/earth-science#Sentence": "https://w3id.org/ro-id/8c89edfa-c766-45b1-b4ee-487b522f7e61",
+      "modifiedTime": "2024-09-20 16:19:13.025533+00:00"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a",
+      "@type": [
+        "File"
+      ],
+      "name": "requirements.txt",
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "sdDatePublished": "2024-09-20 15:26:35.621179+00:00",
+      "dateCreated": "2024-09-20 15:26:35.621179+00:00",
+      "dateModified": "2024-09-20 16:19:07.550995+00:00",
+      "contentUrl": "https://api.rohub.org/api/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a/download/",
+      "contentSize": 5,
+      "encodingFormat": "text/plain",
+      "description": "A file with requirements"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/de3d1a25-8ee9-4d94-ba9d-951793bc539d",
+      "@type": [
+        "File"
+      ],
+      "name": "otherfile.txt",
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "sdDatePublished": "2024-09-20 16:19:05.598524+00:00",
+      "dateCreated": "2024-09-20 16:19:05.598524+00:00",
+      "dateModified": "2024-09-20 16:19:06.571144+00:00",
+      "contentUrl": "https://api.rohub.org/api/resources/de3d1a25-8ee9-4d94-ba9d-951793bc539d/download/",
+      "contentSize": 0,
+      "encodingFormat": "text/plain"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/4c6f9b92-67d7-4b02-a5ad-2f9e8cce9f32",
+      "@type": [
+        "File"
+      ],
+      "name": "file.txt",
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "sdDatePublished": "2024-09-20 16:19:05.597758+00:00",
+      "dateCreated": "2024-09-20 16:19:05.597758+00:00",
+      "dateModified": "2024-09-20 16:19:06.431951+00:00",
+      "contentUrl": "https://api.rohub.org/api/resources/4c6f9b92-67d7-4b02-a5ad-2f9e8cce9f32/download/",
+      "contentSize": 0,
+      "encodingFormat": "text/plain"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/aaea0a9a-1463-499c-b4cd-74b043f390db",
+      "@type": [
+        "File"
+      ],
+      "name": "README.md",
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "sdDatePublished": "2024-09-20 16:19:05.596973+00:00",
+      "dateCreated": "2024-09-20 16:19:05.596973+00:00",
+      "dateModified": "2024-09-20 16:19:05.885218+00:00",
+      "contentUrl": "https://api.rohub.org/api/resources/aaea0a9a-1463-499c-b4cd-74b043f390db/download/",
+      "contentSize": 43,
+      "encodingFormat": "text/markdown"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/eed9f222-34fd-422c-93d4-e61ecfdda948",
+      "@type": [
+        "File"
+      ],
+      "name": "also_file.txt",
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "sdDatePublished": "2024-09-20 16:19:05.595992+00:00",
+      "dateCreated": "2024-09-20 16:19:05.595992+00:00",
+      "dateModified": "2024-09-20 16:19:05.632001+00:00",
+      "contentUrl": "https://api.rohub.org/api/resources/eed9f222-34fd-422c-93d4-e61ecfdda948/download/",
+      "contentSize": 0,
+      "encodingFormat": "text/plain"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/ef0e19fb-60b2-4139-811b-d55556296156",
+      "https://w3id.org/ro/terms/earth-science#normScore": "10.610610610610612",
+      "@type": "https://w3id.org/ro/terms/earth-science#Lemma",
+      "https://w3id.org/ro/terms/earth-science#score": "10.6",
+      "name": "null"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/76589aae-af01-4a06-80cd-5ccc01e37624",
+      "https://w3id.org/ro/terms/earth-science#normScore": "34.18347690713885",
+      "@type": "https://w3id.org/ro/terms/earth-science#FieldOfResearch",
+      "https://w3id.org/ro/terms/earth-science#score": "0.43228960037231445",
+      "name": "earth sciences"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/4951e7fa-fb10-48c8-8796-c0b54a1d987f",
+      "https://w3id.org/ro/terms/earth-science#normScore": "89.3893893893894",
+      "@type": "https://w3id.org/ro/terms/earth-science#Lemma",
+      "https://w3id.org/ro/terms/earth-science#score": "89.3",
+      "name": "project"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/ec3966e8-f79f-431e-9083-98b3bb4c605c",
+      "https://w3id.org/ro/terms/earth-science#normScore": "65.81652309286115",
+      "@type": "https://w3id.org/ro/terms/earth-science#FieldOfResearch",
+      "https://w3id.org/ro/terms/earth-science#score": "0.8323260545730591",
+      "name": "earth sciences"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/8ebccc00-c414-4ce6-bb6b-e8e6a4129113",
+      "https://w3id.org/ro/terms/earth-science#normScore": "65.81652309286115",
+      "@type": "https://w3id.org/ro/terms/earth-science#FieldOfResearch",
+      "https://w3id.org/ro/terms/earth-science#score": "0.8323260545730591",
+      "name": "geology"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/00aa133c-4b41-4eb2-b06b-386c8e7a334b",
+      "https://w3id.org/ro/terms/earth-science#normScore": "89.8898898898899",
+      "@type": "https://w3id.org/ro/terms/earth-science#Concept",
+      "https://w3id.org/ro/terms/earth-science#score": "89.8",
+      "name": "project"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/cff16acc-857d-4537-985c-d8a986dc762a",
+      "https://w3id.org/ro/terms/earth-science#normScore": "10.110110110110112",
+      "@type": "https://w3id.org/ro/terms/earth-science#Concept",
+      "https://w3id.org/ro/terms/earth-science#score": "10.1",
+      "name": "void"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/3336233a-7711-4199-b68c-4b48c3ecdc80",
+      "https://w3id.org/ro/terms/earth-science#normScore": "73.05887205052713",
+      "@type": "https://w3id.org/ro/terms/earth-science#NASA",
+      "https://w3id.org/ro/terms/earth-science#score": "0.13741923868656158",
+      "name": "cybernetics, artificial intelligence and robotics"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/bdb804c2-0ff5-4aee-be2f-7e6e20fdb3ef",
+      "https://w3id.org/ro/terms/earth-science#normScore": "26.94112794947287",
+      "@type": "https://w3id.org/ro/terms/earth-science#NASA",
+      "https://w3id.org/ro/terms/earth-science#score": "0.05067460238933563",
+      "name": "space sciences (general)"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/3a027563-17c4-4d3d-ab77-4713e9dd9ff7",
+      "https://w3id.org/ro/terms/earth-science#normScore": "73.05887205052713",
+      "@type": "https://w3id.org/ro/terms/earth-science#NASA",
+      "https://w3id.org/ro/terms/earth-science#score": "0.13741923868656158",
+      "name": "mathematical and computer sciences"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/01ed55c2-f29a-41e1-8d46-f313179c66c5",
+      "https://w3id.org/ro/terms/earth-science#normScore": "34.18347690713885",
+      "@type": "https://w3id.org/ro/terms/earth-science#FieldOfResearch",
+      "https://w3id.org/ro/terms/earth-science#score": "0.43228960037231445",
+      "name": "oceanography"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/a1431b99-4bb7-46b5-b1bf-b18e8218d80f",
+      "https://w3id.org/ro/terms/earth-science#normScore": "26.94112794947287",
+      "@type": "https://w3id.org/ro/terms/earth-science#NASA",
+      "https://w3id.org/ro/terms/earth-science#score": "0.05067460238933563",
+      "name": "space sciences"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/8c89edfa-c766-45b1-b4ee-487b522f7e61",
+      "https://w3id.org/ro/terms/earth-science#normScore": "100.0",
+      "@type": "https://w3id.org/ro/terms/earth-science#Sentence",
+      "https://w3id.org/ro/terms/earth-science#score": "100.0",
+      "name": "My first project. null"
+    },
+    {
+      "@id": "mailto:cedricdecruw@gmail.com",
+      "@type": "Person",
+      "name": "Cedric Decruw"
+    }
+  ]
+}
