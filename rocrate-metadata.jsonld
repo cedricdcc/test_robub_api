@@ -1,0 +1,80 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    "https://w3id.org/ro/terms/earth-science#",
+    {
+      "description": "http://purl.org/dc/terms/description",
+      "title": "http://purl.org/dc/terms/title",
+      "creation_mode": "http://w3id.org/ro-id/rohub/model#creation_mode"
+    }
+  ],
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "ro-crate-metadata.json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "identifier": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2",
+      "hasPart": [
+        {
+          "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a"
+        }
+      ],
+      "@type": [
+        "Dataset"
+      ],
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "studySubject": [
+        "http://eurovoc.europa.eu/5299"
+      ],
+      "citeAs": "Decruw, Cedric. \"My first project.\" ROHub. Sep 20 ,2024. https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2.",
+      "datePublished": "2024-09-20 15:12:54.118938+00:00",
+      "dateCreated": "2024-09-20 15:12:54.118938+00:00",
+      "dateModified": "2024-09-20 15:26:37.628473+00:00",
+      "contributor": [],
+      "name": "My first project",
+      "contentSize": 0,
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://api.rohub.org/api/ros/6331095a-dba2-4400-9b06-64e38c9c32a2/crate/download/",
+      "http://w3id.org/ro-id/rohub/model#creation_mode": "MANUAL",
+      "modifiedTime": "2024-09-20 15:26:37.628473+00:00"
+    },
+    {
+      "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a",
+      "@type": [
+        "File"
+      ],
+      "name": "requirements.txt",
+      "creator": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "author": [
+        "mailto:cedricdecruw@gmail.com"
+      ],
+      "sdDatePublished": "2024-09-20 15:26:35.621179+00:00",
+      "dateCreated": "2024-09-20 15:26:35.621179+00:00",
+      "dateModified": "2024-09-20 15:26:37.524335+00:00",
+      "contentUrl": "https://api.rohub.org/api/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a/download/",
+      "contentSize": 5,
+      "encodingFormat": "text/plain",
+      "description": "A file with requirements"
+    },
+    {
+      "@id": "mailto:cedricdecruw@gmail.com",
+      "@type": "Person",
+      "name": "Cedric Decruw"
+    }
+  ]
+}
