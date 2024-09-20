@@ -1,7 +1,10 @@
 import rohub
 import os
 import pathlib
+<<<<<<< HEAD
 import zipfile
+=======
+>>>>>>> f0791fa7a8aba69a142304f24b2542521593402d
 
 # Load environment variables username and password
 username = os.environ["USERNAME"]
@@ -30,6 +33,7 @@ loaded_ro = rohub.ros_load(identifier=project_id)
 
 # parent dir of the project
 pd = pathlib.Path(__file__).parent
+<<<<<<< HEAD
 print(pd)
 requirements_file = pd / "requirements.txt"
 
@@ -70,4 +74,20 @@ rohub.ros_upload_resources(project_id, path_to_zip)
 os.remove(path_to_zip)
 
 # download the project metadata
+=======
+
+requirements_file = pd / "requirements.txt"
+
+# add file to the project
+rohub.ros_add_internal_resource(
+    project_id,
+    "file",
+    requirements_file,
+    "requirements.txt",
+    description="A file with requirements",
+)
+
+
+# download the project
+>>>>>>> f0791fa7a8aba69a142304f24b2542521593402d
 rohub.ros_export_to_rocrate(project_id, "rocrate-metadata", pd, use_format="jsonld")

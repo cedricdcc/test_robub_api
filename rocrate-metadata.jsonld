@@ -25,6 +25,7 @@
       "hasPart": [
         {
           "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a"
+<<<<<<< HEAD
         },
         {
           "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/de3d1a25-8ee9-4d94-ba9d-951793bc539d"
@@ -37,6 +38,8 @@
         },
         {
           "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/eed9f222-34fd-422c-93d4-e61ecfdda948"
+=======
+>>>>>>> f0791fa7a8aba69a142304f24b2542521593402d
         }
       ],
       "@type": [
@@ -54,6 +57,7 @@
       "citeAs": "Decruw, Cedric. \"My first project.\" ROHub. Sep 20 ,2024. https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2.",
       "datePublished": "2024-09-20 15:12:54.118938+00:00",
       "dateCreated": "2024-09-20 15:12:54.118938+00:00",
+<<<<<<< HEAD
       "dateModified": "2024-09-20 16:19:07.664313+00:00",
       "contributor": [],
       "name": "My first project",
@@ -83,6 +87,16 @@
       ],
       "https://w3id.org/ro/terms/earth-science#Sentence": "https://w3id.org/ro-id/8c89edfa-c766-45b1-b4ee-487b522f7e61",
       "modifiedTime": "2024-09-20 16:19:13.025533+00:00"
+=======
+      "dateModified": "2024-09-20 15:26:37.628473+00:00",
+      "contributor": [],
+      "name": "My first project",
+      "contentSize": 0,
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://api.rohub.org/api/ros/6331095a-dba2-4400-9b06-64e38c9c32a2/crate/download/",
+      "http://w3id.org/ro-id/rohub/model#creation_mode": "MANUAL",
+      "modifiedTime": "2024-09-20 15:26:37.628473+00:00"
+>>>>>>> f0791fa7a8aba69a142304f24b2542521593402d
     },
     {
       "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a",
@@ -98,13 +112,18 @@
       ],
       "sdDatePublished": "2024-09-20 15:26:35.621179+00:00",
       "dateCreated": "2024-09-20 15:26:35.621179+00:00",
+<<<<<<< HEAD
       "dateModified": "2024-09-20 16:19:07.550995+00:00",
+=======
+      "dateModified": "2024-09-20 15:26:37.524335+00:00",
+>>>>>>> f0791fa7a8aba69a142304f24b2542521593402d
       "contentUrl": "https://api.rohub.org/api/resources/1a5c37c2-4178-4230-aadc-2e38fbfea16a/download/",
       "contentSize": 5,
       "encodingFormat": "text/plain",
       "description": "A file with requirements"
     },
     {
+<<<<<<< HEAD
       "@id": "https://w3id.org/ro-id/6331095a-dba2-4400-9b06-64e38c9c32a2/resources/de3d1a25-8ee9-4d94-ba9d-951793bc539d",
       "@type": [
         "File"
@@ -272,6 +291,8 @@
       "name": "My first project. null"
     },
     {
+=======
+>>>>>>> f0791fa7a8aba69a142304f24b2542521593402d
       "@id": "mailto:cedricdecruw@gmail.com",
       "@type": "Person",
       "name": "Cedric Decruw"
